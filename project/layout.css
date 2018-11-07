@@ -1,0 +1,37 @@
+#main {width:976px; margin:0 auto; position:relative;}
+
+#header {height:526px;background: rgba(153,54,0,1);
+background: -moz-linear-gradient(top, rgba(153,54,0,1) 0%, rgba(173,58,0,1) 38%, rgba(138,44,0,1) 66%, rgba(138,44,0,1) 83%, rgba(143,40,0,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(153,54,0,1)), color-stop(38%, rgba(173,58,0,1)), color-stop(66%, rgba(138,44,0,1)), color-stop(83%, rgba(138,44,0,1)), color-stop(100%, rgba(143,40,0,1)));
+background: -webkit-linear-gradient(top, rgba(153,54,0,1) 0%, rgba(173,58,0,1) 38%, rgba(138,44,0,1) 66%, rgba(138,44,0,1) 83%, rgba(143,40,0,1) 100%);
+background: -o-linear-gradient(top, rgba(153,54,0,1) 0%, rgba(173,58,0,1) 38%, rgba(138,44,0,1) 66%, rgba(138,44,0,1) 83%, rgba(143,40,0,1) 100%);
+background: -ms-linear-gradient(top, rgba(153,54,0,1) 0%, rgba(173,58,0,1) 38%, rgba(138,44,0,1) 66%, rgba(138,44,0,1) 83%, rgba(143,40,0,1) 100%);
+background: linear-gradient(to bottom, rgba(153,54,0,1) 0%, rgba(173,58,0,1) 38%, rgba(138,44,0,1) 66%, rgba(138,44,0,1) 83%, rgba(143,40,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#993600', endColorstr='#8f2800', GradientType=0 );}
+#header.small { height:414px;}
+#header, #content, #footer { font-size:0.75em;}
+
+.col-1, .col-2, .col-3 { float:left;}
+
+.aside { float:left; width:236px; margin-right:50px;}
+.content { float:left; width:594px; position:relative;}
+.form{ float:center; width:700px; position:relative;}
+
+/*======= index.html =======*/
+#page1 #content .line-ver { background-position:297px top;}
+#page1 #content .col-1 {width:314px; margin-right:112px;}
+#page1 #content .col-2 { width:223px;}
+
+/*======= index-1.html =======*/
+#page2 #content .col-1 {width:173px; margin-right:37px;}
+#page2 #content .col-2 {width:173px; margin-right:37px;}
+#page2 #content .col-3 {width:173px;}
+
+/*======= index-2.html =======*/
+#page3 #content .col-1 {width:173px; margin-right:37px;}
+#page3 #content .col-2 {width:173px; margin-right:37px;}
+#page3 #content .col-3 {width:173px;}
+
+
+/*=========================*/
+
